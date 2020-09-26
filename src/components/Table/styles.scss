@@ -1,0 +1,27 @@
+table {
+  thead{
+    th{
+      font-weight: bold;
+
+      &:hover {
+        background-color: whitesmoke;
+      }
+
+      svg {
+        vertical-align: inherit;
+      }
+    }
+  }
+
+  tbody {
+    tr{
+      line-height: .5rem;
+      cursor: pointer;
+    }
+  }
+}
+
+.white {
+  color: transparent;
+  background-color: transparent !important;
+}
